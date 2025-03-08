@@ -1,0 +1,40 @@
+/* Ensure the card container has centered and full-width layout */
+.InfoBox .card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Apply a light background with a darker text for the card */
+.MuiCard-root {
+    background: #f0f0f0 !important; /* Light gray background */
+    color: #111 !important; /* Dark text color */
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Specifically target Typography elements in the Card */
+.MuiTypography-root {
+    color: #111 !important; /* Ensures the text is dark */
+    font-weight: 600; /* Makes text a bit bolder */
+}
+
+/* Make sure paragraphs inside the card are dark too */
+.MuiCardContent-root p {
+    color: #111 !important; /* Dark text for paragraph elements */
+}
+
+/* In case any text element inside the Card needs explicit styling */
+.MuiTypography-h5, .MuiTypography-body2, .MuiTypography-body1 {
+    color: #111 !important; /* Dark color applied for all text elements */
+}
+
+
+
+
+
+
+
